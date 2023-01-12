@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+/* font-family: 'Red Hat Display', sans-serif; */
+/* - Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+
+p {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+
+.ordercomp {
+  height: 680px;
+  max-width: 450px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  align-items: center;
+  margin: 150px 350px;
+}
+
+.pricingCard {
+  height: 75px;
+  width: 350px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.pricingCard img {
+  max-width: 100%;
+  max-height: auto;
+  display: flex;
+  margin: 0 5px 0 20px;
+}
+
+.headerHero {
+  object-fit: cover;
+  max-width: 550px;
+}
+
+.plan {
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px 0 5px;
+}
+
+.plan h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.plan h3 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  margin-top: 5px;
+}
+
+.summary h4 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  padding: 30px 50px 20px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pricingCard a {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  margin-left: 100px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.summary {
+  padding: 50px;
+}
+
+.summary h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.summary p {
+  font-family: "Red Hat Display", sans-serif;
+  padding: 20px 0;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  line-height: 2rem;
+}
+
+.btn-payment {
+  height: 50px;
+  width: 350px;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+  box-shadow: 0 0 50px #ccc;
+}
